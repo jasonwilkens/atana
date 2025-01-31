@@ -27,10 +27,10 @@ export default {
       root.style.setProperty("--meter-bar-oncolor", "var(--foreground-color)");
     } else if (this.quality >= 70) {
       root.style.setProperty("--meter-bar", "var(--orange)");
-      root.style.setProperty("--meter-bar-oncolor", "white");
+      root.style.setProperty("--meter-bar-oncolor", "var(--white)");
     } else {
       root.style.setProperty("--meter-bar", "var(--red)");
-      root.style.setProperty("--meter-bar-oncolor", "white");
+      root.style.setProperty("--meter-bar-oncolor", "var(--white)");
     }
   },
   props: ["value", "quality"],

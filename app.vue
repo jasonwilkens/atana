@@ -132,6 +132,9 @@ export default {
         this.hasError = false;
       }
     },
+    handleUnfocus: function () {
+      this.$refs.courseField.blur();
+    },
   },
 };
 </script>
