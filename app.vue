@@ -101,7 +101,6 @@ export default {
       } catch (error) {
         this.hasError = true;
         this.isCourseFieldDisabled = false;
-        // this.$refs.courseField.focus(); not working
         this.$nextTick(() => this.$refs.courseField.focus());
         if (error.response && error.response.status === 404) {
           this.errorMessage = "Course not found";
