@@ -10,6 +10,7 @@
           id="courseField"
           v-on:keyup.esc="handleUnfocus"
           v-on:keyup="handleCourseFieldChange"
+          v-on:change="handleCourseFieldChange"
           :value="enteredCourseCode"
           :aria-invalid="hasError"
           ref="courseField"
