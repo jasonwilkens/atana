@@ -78,7 +78,6 @@ export default {
       enteredCourseCode: null,
       errorMessage: null,
       hasError: false,
-      hasSuccess: false,
       isCourseFieldDisabled: false,
     };
   },
