@@ -141,7 +141,7 @@ export default {
 
 <style>
 body {
-  background-image: linear-gradient(180deg, white, var(--gray));
+  background-image: linear-gradient(180deg, var(--white), var(--gray));
   margin: 0;
 }
 
